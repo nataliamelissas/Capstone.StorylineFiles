@@ -1,1 +1,0 @@
-window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%203.96.33815.0%0D%0A%0D%0A00:00:00.075%20--%3E%2000:00:04.197%0D%0AIn%20this%20lecture%20we%20will%20examine%20the%20topic%20of%20community%20in%20an%20online%20classroom.%0D%0A%0D%0A"}')
