@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npxnabnsnfns10111001101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npxnabnsnfns10111001101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="150" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
   <layouts>
     <layout name="npnxnanbsnfns10111001101" font="Lato" controllayout="npnxnanbsnfns10111001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
     <layout name="pxabnsnfns10111001101" font="Lato" controllayout="pxabnsnfns10111001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
     <layout name="npxnabnsnfns10111001101" font="Lato" controllayout="npxnabnsnfns10111001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
     <layout name="npnxnanbnsnfns10111001101" font="Lato" controllayout="npnxnanbnsnfns10111001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
     <layout name="pxabnsnfns10111001100" font="Lato" controllayout="pxabnsnfns10111001100" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
-    <layout name="pnxanbnsnfns00001000101" font="Lato" controllayout="pnxanbnsnfns00001000101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
     <layout name="npnxnanbnsnfns00001000101" font="Lato" controllayout="npnxnanbnsnfns00001000101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
     <layout name="npnxanbnsnfns00001000101" font="Lato" controllayout="npnxanbnsnfns00001000101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
     <layout name="npxnabnsnfns00001000101" font="Lato" controllayout="npxnabnsnfns00001000101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
-    <layout name="pnxanbnsnfns10111001101" font="Lato" controllayout="pnxanbnsnfns10111001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -18,7 +16,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="OnlineVsInPersonAssessments" />
+              <option name="title_text" value="Online vs In-Person Assessments" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -76,7 +74,7 @@
           <option name="closed_captions" value="true" />
           <option name="settings" value="true" />
           <option name="playbackSpeedControl" value="true" />
-          <option name="fullScreenToggle" value="true" />
+          <option name="fullScreenToggle" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -94,7 +92,7 @@
       <optiongroup name="ccOptions">
         <options>
           <option name="font" value="Lato" />
-          <option name="size" value="100" />
+          <option name="size" value="150" />
           <option name="placement" value="100" />
           <option name="backgroundColor" value="#000000FF" />
           <option name="color" value="#FFFFFFFF" />
@@ -113,7 +111,7 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="true" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
@@ -138,7 +136,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -163,7 +161,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -188,7 +186,7 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -213,7 +211,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -228,31 +226,6 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbnsnfns00001000101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="true" />
-      <control name="playbackSpeedControl" enabled="true" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
     <control_layout name="npnxnanbnsnfns00001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
@@ -263,7 +236,7 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -288,7 +261,7 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -313,7 +286,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -321,31 +294,6 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="pnxanbnsnfns10111001101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="true" />
-      <control name="playbackSpeedControl" enabled="true" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
@@ -1692,13 +1640,14 @@
       <links>
         <slidelink slideid="_player.5VQwouMQsiz" displaytext="Online Assessments Scene" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6KRn578v8bw" displaytext="Introduction" expand="true" type="slide">
+            <slidelink slideid="_player.6M0KYQll6RB" displaytext="Introduction" expand="false" type="slide">
               <links>
-                <slidelink slideid="_player.5VQwouMQsiz.5XyoAHrp9Bz" displaytext="Online Assessments" expand="false" type="slide" />
+                <slidelink slideid="_player.5VQwouMQsiz.5XyoAHrp9Bz" displaytext="Introduction" expand="false" type="slide" />
+                <slidelink slideid="_player.5VQwouMQsiz.6865CoNJ5IB" displaytext="Online Assessments" expand="false" type="slide" />
                 <slidelink slideid="_player.5VQwouMQsiz.6qOh35iOWmL" displaytext="Overview" expand="false" type="slide" />
               </links>
             </slidelink>
-            <slidelink slideid="_player.6PyU9BOh9MS" displaytext="Differences" expand="true" type="slide">
+            <slidelink slideid="_player.6l5uYuNExN7" displaytext="Differences" expand="false" type="slide">
               <links>
                 <slidelink slideid="_player.5VQwouMQsiz.5dfYxD4h7e5" displaytext="Questions" expand="false" type="slide" />
                 <slidelink slideid="_player.5VQwouMQsiz.5hZ17TPOw76" displaytext="Time and Space" expand="false" type="slide" />
@@ -1706,31 +1655,31 @@
                 <slidelink slideid="_player.5VQwouMQsiz.6jNZApehFxi" displaytext="Interaction" expand="false" type="slide" />
               </links>
             </slidelink>
-            <slidelink slideid="_player.5yKpCdbbyOy" displaytext="Feedback" expand="true" type="slide">
+            <slidelink slideid="_player.6cpuoUMR4vr" displaytext="Feedback" expand="false" type="slide">
               <links>
                 <slidelink slideid="_player.5VQwouMQsiz.5YzvJXAJTPg" displaytext="Feedback" expand="false" type="slide" />
                 <slidelink slideid="_player.5VQwouMQsiz.6ImxiqMTHI1" displaytext="Flexibility" expand="false" type="slide" />
               </links>
             </slidelink>
-            <slidelink slideid="_player.6KJ1EZ7pNTl" displaytext="Learning Check" expand="true" type="slide">
-              <links>
-                <slidelink slideid="_player.5VQwouMQsiz.6onEwha0h0D" displaytext="Introduction" expand="false" type="slide" />
-                <slidelink slideid="_player.5VQwouMQsiz.5VHD2cFRmUC" displaytext="Page 1" expand="false" type="slide" />
-                <slidelink slideid="_player.5VQwouMQsiz.6elT8qR4sTe" displaytext="Page 2" expand="false" type="slide" />
-              </links>
-            </slidelink>
-            <slidelink slideid="_player.65N9mJr2ZZc" displaytext="Challenges and Strategies" expand="true" type="slide">
+            <slidelink slideid="_player.6nQ909w4Tc7" displaytext="Challenges and Strategies" expand="false" type="slide">
               <links>
                 <slidelink slideid="_player.5VQwouMQsiz.6X20oAOLKmc" displaytext="Challenges" expand="false" type="slide" />
                 <slidelink slideid="_player.5VQwouMQsiz.6rcM6VT1O7w" displaytext="Gauging Understanding" expand="false" type="slide" />
                 <slidelink slideid="_player.5VQwouMQsiz.5nVEC447iPU" displaytext="Technical Barriers" expand="false" type="slide" />
               </links>
             </slidelink>
-            <slidelink slideid="_player.5pIfTAkylLJ" displaytext="Conclusion" expand="true" type="slide">
+            <slidelink slideid="_player.6BO5OOlSYvm" displaytext="Conclusion" expand="false" type="slide">
               <links>
                 <slidelink slideid="_player.5VQwouMQsiz.6ivCDunGS8p" displaytext="Takeaways" expand="false" type="slide" />
               </links>
             </slidelink>
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6mm4t6nFwwL" displaytext="Learning Check" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6mm4t6nFwwL.5VHD2cFRmUC" displaytext="Question 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6mm4t6nFwwL.6elT8qR4sTe" displaytext="Question 7" expand="false" type="slide" />
+            <slidelink slideid="_player.6mm4t6nFwwL.6B9UrrmEg88" displaytext="Exit" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
@@ -1740,6 +1689,16 @@
   <transcript_data>
     <slidetranscripts>
       <slidetranscript slideid="5VQwouMQsiz.5XyoAHrp9Bz" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style StyleKey="Transcript Font" /&gt;
+      &lt;Span Text="This video will explore the key differences between online and in-person strategies for effective assessment in an online classroom. "&gt;
+        &lt;Style FontSize="14" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5VQwouMQsiz.6865CoNJ5IB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style StyleKey="Transcript Font" /&gt;

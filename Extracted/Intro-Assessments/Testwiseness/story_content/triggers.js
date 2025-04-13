@@ -2,16 +2,16 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "64N8kJhlLTL":
+      case "5ezdoHs8TLn":
         Script1();
         break;
-      case "5f3x9S2PlAP":
+      case "6ecVR8adwrm":
         Script2();
         break;
-      case "5nYTAYCNKwC":
+      case "5tctWpnjhDI":
         Script3();
         break;
-      case "5lJNef04RGY":
+      case "5ZctriNc7Em":
         Script4();
         break;
   }
@@ -21,6 +21,7 @@ window.InitExecuteScripts = function()
 {
 var player = GetPlayer();
 var object = player.object;
+var once = player.once;
 var addToTimeline = player.addToTimeline;
 var setVar = player.SetVar;
 var getVar = player.GetVar;
