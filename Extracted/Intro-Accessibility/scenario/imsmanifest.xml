@@ -1,65 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest identifier="_6d04kxCOi9A" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest identifier="_6d04kxCOi9A" version="1.3" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
+                              http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
+                              http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd
+                              http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd
+							  http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd
+							  http://ltsc.ieee.org/xsd/LOM lom.xsd">
   <metadata>
     <schema>ADL SCORM</schema>
-    <schemaversion>1.2</schemaversion>
-    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
-      <general>
-        <title>
-          <langstring xml:lang="x-none">Accessibility: Scenario Assignment</langstring>
-        </title>
-      </general>
-      <lifecycle>
-        <version>
-          <langstring xml:lang="x-none">1</langstring>
-        </version>
-        <status>
-          <source>
-            <langstring xml:lang="x-none">LOMv1.0</langstring>
-          </source>
-          <value>
-            <langstring xml:lang="x-none">Final</langstring>
-          </value>
-        </status>
-      </lifecycle>
-      <metametadata>
-        <metadatascheme>ADL SCORM 1.2</metadatascheme>
-      </metametadata>
-      <educational>
-        <typicallearningtime>
-          <datetime>PT0H0M0S</datetime>
-        </typicallearningtime>
-      </educational>
-      <rights>
-        <cost>
-          <source>
-            <langstring xml:lang="x-none">LOMv1.0</langstring>
-          </source>
-          <value>
-            <langstring xml:lang="x-none">yes</langstring>
-          </value>
-        </cost>
-        <copyrightandotherrestrictions>
-          <source>
-            <langstring xml:lang="x-none">LOMv1.0</langstring>
-          </source>
-          <value>
-            <langstring xml:lang="x-none">yes</langstring>
-          </value>
-        </copyrightandotherrestrictions>
-      </rights>
-    </lom>
+    <schemaversion>2004 4th Edition</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
   </metadata>
   <organizations default="Accessibility:_Scenario_Assignment_ORG">
-    <organization identifier="Accessibility:_Scenario_Assignment_ORG">
+    <organization identifier="Accessibility:_Scenario_Assignment_ORG" adlseq:objectivesGlobalToSystem="false">
       <title>Accessibility: Scenario Assignment</title>
-      <item identifier="Online_Assessments:_Scenario_Assignment_SCO" isvisible="true" identifierref="__6d04kxCOi9A_RES">
+      <item identifier="Online_Assessments:_Scenario_Assignment_SCO" identifierref="__6d04kxCOi9A_RES" isvisible="true">
         <title>Accessibility: Scenario Assignment</title>
       </item>
+      <metadata>
+        <adlcp:location>metadata.xml</adlcp:location>
+      </metadata>
+      <imsss:sequencing>
+        <imsss:controlMode choice="true" flow="true" />
+      </imsss:sequencing>
     </organization>
   </organizations>
   <resources>
-    <resource identifier="__6d04kxCOi9A_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+    <resource identifier="__6d04kxCOi9A_RES" type="webcontent" adlcp:scormType="sco" href="index_lms.html">
       <file href="story_content/thumbnail.jpg" />
       <file href="mobile/5eYho79O9me.png" />
       <file href="mobile/6QZcVInCv2b_M_4096_4096.png" />
@@ -70,6 +36,7 @@
       <file href="mobile/6Gb1lhYgH3S.png" />
       <file href="mobile/6Ghd2RPsssW_M_4096_4096.png" />
       <file href="meta.xml" />
+      <file href="story_content/triggers.js" />
       <file href="story_content/user.js" />
       <file href="html5/data/css/output.min.css" />
       <file href="html5/data/js/5bmTFjydKT0.js" />
